@@ -1,0 +1,29 @@
+{
+  "name": "oasis/tencent-wrappers",
+  "description": "",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Qitao.Zhang",
+      "email": "4495036@qq.com"
+    }
+  ],
+  "require": {
+    "oasis/logging": "^1.4",
+    "oasis/flysystem-wrappers": "^1.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oasis\\Mlib\\TecentWrappers\\": "src/Wrappers/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Oasis\\Mlib\\AliyunWrappers\\Test\\": "ut/"
+    }
+  }
+}

@@ -1,1 +1,3 @@
 # tencent-wrappers
+COS
+CMQ
